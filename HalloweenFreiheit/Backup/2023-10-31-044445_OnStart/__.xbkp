@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2023.18</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Galaxy_Blend_Edges=1,E_CHECKBOX_Galaxy_Inward=0,E_CHECKBOX_Galaxy_Reverse=0,E_NOTEBOOK_Galaxy=Start,E_SLIDER_Galaxy_Accel=0,E_SLIDER_Galaxy_CenterX=50,E_SLIDER_Galaxy_CenterY=50,E_SLIDER_Galaxy_Duration=20,E_SLIDER_Galaxy_End_Radius=10,E_SLIDER_Galaxy_End_Width=5,E_SLIDER_Galaxy_Revolutions=1440,E_SLIDER_Galaxy_Start_Angle=0,E_SLIDER_Galaxy_Start_Radius=1,E_SLIDER_Galaxy_Start_Width=5</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Front" visible="1"/>
+    <Element collapsed="0" type="model" name="Top2" visible="1"/>
+    <Element collapsed="0" type="model" name="DiscoO" visible="1"/>
+    <Element collapsed="0" type="model" name="DiscoU" visible="1"/>
+    <Element collapsed="0" type="model" name="KetteL" visible="1"/>
+    <Element collapsed="0" type="model" name="KetteR" visible="1"/>
+    <Element collapsed="0" type="model" name="Tonne4" visible="1"/>
+    <Element collapsed="0" type="model" name="Tonne5" visible="0"/>
+    <Element collapsed="0" type="model" name="Tonne6" visible="0"/>
+    <Element collapsed="0" type="model" name="StabL" visible="0"/>
+    <Element collapsed="0" type="model" name="StabR" visible="0"/>
+    <Element collapsed="0" type="model" name="Tonne1" visible="0"/>
+    <Element collapsed="0" type="model" name="Tonne2" visible="0"/>
+    <Element collapsed="0" type="model" name="Tonne3" visible="0"/>
+    <Element collapsed="0" type="model" name="TonneSpiegelL" visible="0"/>
+    <Element collapsed="0" type="model" name="TonneSpiegelR" visible="0"/>
+    <Element collapsed="0" type="model" name="Top" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" startTime="0" endTime="26625" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Top2">
+      <EffectLayer>
+        <Effect ref="1" name="Galaxy" selected="1" startTime="0" endTime="26525" palette="0"/>
+      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="DiscoO">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="DiscoU">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="KetteL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="KetteR">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tonne4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tonne5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tonne6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="StabL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="StabR">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tonne1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tonne2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tonne3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="TonneSpiegelL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="TonneSpiegelR">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Top">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
