@@ -25,7 +25,7 @@
     <network ChannelsPerPacket="1440" KeepChannelNumbers="0" ComPort="192.168.1.71" BaudRate="1" NetworkType="DDP" MaxChannels="144"/>
   </Controller>
   <Controller Id="9" Name="StaebeKette" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP32" AutoSize="1" FromBase="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" Monitor="1" IP="192.168.1.60" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="192.168.1.3">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="0" ComPort="192.168.1.60" BaudRate="1" NetworkType="DDP" MaxChannels="900"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="0" ComPort="192.168.1.60" BaudRate="1" NetworkType="DDP" MaxChannels="750"/>
   </Controller>
   <Controller Id="10" Name="Lampen" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP32" AutoSize="1" FromBase="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" Monitor="1" IP="192.168.1.38" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="192.168.1.3">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="0" ComPort="192.168.1.38" BaudRate="1" NetworkType="DDP" MaxChannels="1"/>

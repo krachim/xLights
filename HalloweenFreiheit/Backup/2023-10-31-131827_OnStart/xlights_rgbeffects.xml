@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="48" name="DiscoU" Controller="DiscoKugel" ModelChain="&gt;DiscoO" WorldPosX="0.0000" WorldPosY="2600.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0213" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DiscoKugel:145">
+    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="48" name="DiscoU" Controller="DiscoKugel" ModelChain="&gt;DiscoO" WorldPosX="0.0000" WorldPosY="2600.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0000" RotateX="-90.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DiscoKugel:145">
       <ControllerConnection Port="1" Protocol="ws2811"/>
     </model>
     <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="48" Controller="Tonne8" name="TonneSpiegelR" WorldPosX="1835.6812" WorldPosY="2578.2078" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0213" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne8:1">
@@ -19,10 +19,10 @@
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="StabR" Controller="StaebeKette" ModelChain="&gt;KetteL" WorldPosX="1800.0000" WorldPosY="2300.0000" WorldPosZ="0.0000" X2="-300.000000" Y2="-1000.000000" Z2="-0.000062" versionNumber="5" StartChannel="!StaebeKette:601">
       <ControllerConnection Port="3" Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne6" Controller="Tonne6" WorldPosX="0.0000" WorldPosY="6000.0000" WorldPosZ="6000.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne6:1">
+    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne6" Controller="Tonne6" WorldPosX="0.0000" WorldPosY="3000.0000" WorldPosZ="6000.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="-90.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne6:1">
       <ControllerConnection Port="1" Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne5" Controller="Tonne5" WorldPosX="0.0000" WorldPosY="5000.0000" WorldPosZ="4000.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne5:1">
+    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne5" Controller="Tonne5" WorldPosX="0.0000" WorldPosY="3000.0000" WorldPosZ="4000.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="-90.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne5:1">
       <ControllerConnection Port="1" Protocol="ws2811"/>
     </model>
     <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne3" Controller="Tonne3" WorldPosX="1500.0000" WorldPosY="750.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne3:1">
@@ -31,7 +31,7 @@
     <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne1" Controller="Tonne1" WorldPosX="-1500.0000" WorldPosY="750.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne1:1">
       <ControllerConnection Port="1" Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne4" Controller="Tonne4" WorldPosX="0.0000" WorldPosY="4000.0000" WorldPosZ="2000.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne4:1">
+    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne4" Controller="Tonne4" WorldPosX="0.0000" WorldPosY="3000.0000" WorldPosZ="2000.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="-90.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne4:1">
       <ControllerConnection Port="1" Protocol="ws2811"/>
     </model>
     <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayerSizes="1,8,12,16,24,32,40,48,60" parm2="241" parm3="0" Dir="L" StartSide="T" InsideOut="0" LayoutGroup="Default" name="Tonne2" Controller="Tonne2" WorldPosX="0.0000" WorldPosY="500.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0171" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne2:1">
@@ -40,7 +40,7 @@
     <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="48" name="TonneSpiegelL" Controller="Tonne7" WorldPosX="-1874.7964" WorldPosY="2599.8921" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0213" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Tonne7:1">
       <ControllerConnection Protocol="ws2811" Port="1"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="48" name="DiscoO" Controller="DiscoKugel" WorldPosX="0.0000" WorldPosY="2800.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0213" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DiscoKugel:1">
+    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="48" name="DiscoO" Controller="DiscoKugel" WorldPosX="0.0000" WorldPosY="2800.0000" WorldPosZ="0.0000" ScaleX="8.0000" ScaleY="8.0000" ScaleZ="0.0000" RotateX="-90.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DiscoKugel:1">
       <ControllerConnection Port="1" Protocol="ws2811"/>
     </model>
   </models>
@@ -63,11 +63,11 @@
   <settings>
     <Display2DCenter0 value="1"/>
     <Display2DBoundingBox value="0"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
     <backgroundImage value=""/>
     <scaleImage value="0"/>
     <Display2DGrid value="0"/>
-    <previewWidth value="1280"/>
-    <previewHeight value="720"/>
   </settings>
   <colors>
     <DisabledEffect Red="200" Green="200" Blue="0"/>
